@@ -1,0 +1,67 @@
+//
+//    Styles start from small and go larger (mobile-first approach)
+//
+//    min-width: 35em;  -- Adds more spacing to various elements
+//    min-width: 50em;  -- Turns grid into columns with different widths
+//    min-width: 75em;  -- Bump up font size
+//    min-width: 100em; -- Bump up font size
+//
+@media all and (min-width: 35em) {
+    
+    body,
+    .container,
+    .sub-content {
+        padding: $base-spacing;
+    }
+
+    .visible-small {
+        display: none;
+    }
+
+}
+
+@media all and (min-width: 50em) {
+    
+    .row .one-fourth,
+    .row .one-half,
+    .row .three-fourths,
+    .row .one-third,
+    .row .two-thirds {
+        display: inline-block;
+        float: left;
+    }
+    
+    .one-fourth    { width: 25%; }
+    .one-third     { width: 33.333333%; }
+    .one-half      { width: 50%; }
+    .two-thirds    { width: 66.666666%; }
+    .three-fourths { width: 75%; }
+    
+    .ie .one-fourth,    
+    .ie .one-half,      
+    .ie .three-fourths, 
+    .ie .one-third,     
+    .ie .two-thirds    { width: 100%; }
+    
+    .row .grid {
+        padding-right: 5%;
+    }
+
+    .row .grid:last-child {
+        padding-right: 0;
+    }
+    
+    .icon-clock:before, 
+    .icon-location:before, 
+    .icon-thumbs-up:before {
+        display: none;
+    }
+}
+
+@media all and (min-width: 75em) {
+    html { font-size: 125%; }
+}
+
+@media all and (min-width: 100em) {
+    html { font-size: 150%; }
+}

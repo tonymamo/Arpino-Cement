@@ -1,0 +1,78 @@
+//
+//    Begin Site Specific Styles
+//
+.container {
+    margin: 0 auto;
+    padding: $half-spacing;
+    background-color: white;
+    border: 0.063em solid $dark-grey;    
+    max-width: 60em;
+    @include rounded-corners;
+    -webkit-box-shadow: 0 0 $half-spacing rgba($dark-grey, .75);
+       -moz-box-shadow: 0 0 $half-spacing rgba($dark-grey, .75);
+            box-shadow: 0 0 $half-spacing rgba($dark-grey, .75);
+}
+
+.sub-content {
+    background: $lightest-grey;
+    padding: $half-spacing;
+    @include rounded-corners;
+    -webkit-box-shadow: inset 0 0 $half-spacing $grey;
+       -moz-box-shadow: inset 0 0 $half-spacing $grey;
+            box-shadow: inset 0 0 $half-spacing $grey;
+}
+
+.header__logo {
+    color: $brand;
+    font-family: $serif;
+}
+
+.header__sub {
+    color: $dark-grey;
+    font-family: $sans-serif;
+    margin: 0 auto $half-spacing;
+    letter-spacing: .5em;
+    text-transform: uppercase;
+}
+
+.header__slogan {
+    font-family: $script;
+}
+
+.header__logo,
+.header__sub,
+.header__slogan {
+    text-align: center;
+}
+
+.copyright {
+    margin: 0;
+    color: $dark-grey;
+    font-size: .8em;
+    text-align: center;
+    font-family: $sans-serif;
+}
+
+.heading {
+    border-bottom: 1px solid $grey;
+    margin: 0 0 $half-spacing 0;
+}
+
+.callout {
+    font-family: $script;
+    display: block;
+    color: $brand;
+}
+
+.bobcat {
+    width: 100%;
+}
+
+.ie i span {
+    margin-right: $half-spacing;
+    font-style: normal;
+}
+
+.ie .visible-small {
+    display: none;
+}

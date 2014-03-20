@@ -1,0 +1,83 @@
+#public {
+	background: none;
+	padding: 0;
+	font-family: $serif;
+	font-size: 100%;
+}
+
+#logo {
+	display: none;
+}
+
+#container {
+	background: transparent;
+	border: none;
+}
+
+.wufoo input.text,
+.wufoo textarea.textarea {
+	background: #FFFFFF;
+	@include rounded-corners;
+}
+
+.wufoo textarea.textarea {
+	width: 100%;
+}
+
+.wufoo .info h2 {
+	font-size: 150%;
+	border-bottom: 1px solid $grey;
+	margin: 0 0 0.75em 0;
+}
+
+.wufoo li.focused {
+	background: none;
+}
+
+.wufoo .instruct {
+	background-color: $light-grey;
+	border: none;
+}
+
+.wufoo .info {
+	border-bottom: none;
+}
+
+.wufoo .info h2,
+.wufoo .info div,
+.wufoo .section div,
+.wufoo .section h3,
+.wufoo label.desc, 
+.wufoo legend.desc,
+.wufoo li div, 
+.wufoo li div label, 
+.wufoo li span label,
+.wufoo input.text, 
+.wufoo textarea.textarea, 
+.wufoo select.select, 
+.wufoo label.choice,
+.wufoo label.choice,
+.wufoo .instruct  {
+	font-family: $serif;
+	color: $text-color;
+}
+
+.wufoo .info div,
+.wufoo label.desc, 
+.wufoo legend.desc,
+.wufoo input.btTxt {
+	font-size: 87.5%;
+	font-weight: normal;
+}
+
+.wufoo input.btTxt {
+	color: #ffffff;
+	padding: $half-spacing $base-spacing;
+	border: none;
+    background-color: $brand;
+	@include rounded-corners;
+	&:hover {
+		background-color: lighten($brand, 20%);
+		@include transition;
+	}
+}
