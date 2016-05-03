@@ -9,7 +9,7 @@
 }
 
 html {
-    font: $base-font-size/#{$line-height-ratio} $serif;
+    font: $base-font-size/#{$line-height-ratio} $sans-serif;
     overflow-y: scroll;
     min-height: 100%;
 }
