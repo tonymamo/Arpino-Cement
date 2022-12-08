@@ -1,0 +1,79 @@
+
+---Downloaded files---
+The import files for: BuildPress Classic were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://localhost:8888
+Data file = /Users/tonymamo/Development/arpinocement/wp-content/uploads/2017/02/demo-content-import-file_2017-02-08__01-25-24.xml
+Widget file = /Users/tonymamo/Development/arpinocement/wp-content/uploads/2017/02/demo-widgets-import-file_2017-02-08__01-25-24.json
+Customizer file = /Users/tonymamo/Development/arpinocement/wp-content/uploads/2017/02/demo-customizer-import-file_2017-02-08__01-25-24.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+cs-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Custom Menu - No Title - Imported to Inactive
+ProteusThemes: Brochure Box - Brochures - Imported to Inactive
+ProteusThemes: Brochure Box - No Title - Imported to Inactive
+
+cs-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Custom Menu - No Title - Imported to Inactive
+ProteusThemes: Brochure Box - Brochures - Imported to Inactive
+ProteusThemes: Brochure Box - No Title - Imported to Inactive
+
+Blog Sidebar : 
+
+Search - No Title - Imported
+Recent Posts - Awesome Posts - Imported
+Text - Follow Us on Twitter - Imported
+Tag Cloud - Tag Cloud - Imported
+
+Shop Sidebar : 
+
+WooCommerce Product Search - Search Products - Imported
+WooCommerce Price Filter - Filter by price - Imported
+WooCommerce Product Categories - Product Categories - Imported
+WooCommerce Top Rated Products - Top Rated Products - Imported
+
+Header : 
+
+ProteusThemes: Icon Box - 1-888-123-4567 - Imported
+ProteusThemes: Icon Box - 227 Marion Street - Imported
+ProteusThemes: Icon Box - Mon - Sat 8.00 - 18.00 - Imported
+ProteusThemes: Social Icons - No Title - Imported
+
+Footer : 
+
+Text - ABOUT US - Imported
+Custom Menu - NAVIGATION - Imported
+Text - BUY NOW - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+After import setup ended!
