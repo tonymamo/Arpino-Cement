@@ -1,0 +1,34 @@
+{
+  "name": "blockUI",
+  "title": "BlockUI",
+  "description": "Simulate synchronous ajax by blocking - not locking - the UI. This plugin lets you block user interaction with the page or with a specific element on the page. Also great at displaying modal dialogs.",
+  "keywords": [
+    "block",
+    "overlay",
+    "dialog",
+    "modal"
+  ],
+  "version": "2.71",
+  "author": {
+    "name": "M. Alsup",
+    "url": "https://jquery.malsup.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://malsup.github.com/mit-license.txt"
+    },
+    {
+      "type": "GPL",
+      "url": "https://malsup.github.com/gpl-license-v2.txt"
+    }
+  ],
+  "bugs": "https://github.com/malsup/blockui/issues",
+  "homepage": "https://jquery.malsup.com/block/",
+  "docs": "https://jquery.malsup.com/block/",
+  "download": "https://malsup.github.com/jquery.blockUI.js",
+  "dependencies": {
+    "jquery": ">=1.12"
+  },
+  "main": "jquery.blockUI.js"
+}
