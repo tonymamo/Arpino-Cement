@@ -458,12 +458,16 @@ Our father Pasquale (Pat) Rea started this company in 1969, and we have remained
                 <div class="footer-bottom__left">
                     <a href="https://arpinocement.wufoo.com/forms/m7x3z9/">Career Opportunities</a>                </div>
                 <div class="footer-bottom__right">
-                    © document.write(new Date().getFullYear()); <strong>Arpino Cement Co., Inc.</strong> All rights reserved.                </div>
+                    © <span id="year"></span> <strong>Arpino Cement Co., Inc.</strong> All rights reserved.                </div>
             </div>
         </div>
     </footer>
     </div>
 <!-- end of .boxed-container -->
+
+		<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 
     <script type="text/javascript" src="/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9" id="regenerator-runtime-js"></script>
